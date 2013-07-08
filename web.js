@@ -6,7 +6,6 @@ var index = fs.readFileSync('index.html');
 var buffer = new Buffer(index);
 
 app.get('/', function(request, response) {
-   /response.send(buffer.toString('utf-8');/
    response.send('aaaaaa cm chung m');
 });
 
